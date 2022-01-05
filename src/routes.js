@@ -6,7 +6,6 @@ const {
   getBookByIdHandler,
   editBookByIdHandler,
   deleteBookByIdHandler,
-  getAllBooksWithQueryHandler,
 } = require('./handler');
 
 const routes = [
