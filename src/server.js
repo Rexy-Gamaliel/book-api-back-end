@@ -1,3 +1,5 @@
+/* eslint linebreak-style: ["error", "windows"] */
+
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
 
@@ -16,6 +18,6 @@ const init = async () => {
 
   await server.start();
   console.log(`Server is running at ${server.info.uri}`);
-}
+};
 
 init();
